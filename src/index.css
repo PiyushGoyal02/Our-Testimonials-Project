@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.AppDiv{
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.AppMain{
+    text-align: center;
+}
+
+.top-Hading{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.EkSingleCard{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.PersonImage{
+    /* aspect-ratio: auto; */
+    border-radius: 100%;
+    object-fit: cover;
+    width: 140px;
+    height: 140px;
+    z-index: 25;
+}
+
+.ImageDiv{
+    position: absolute;
+    top: -7rem;
+    z-index: 10;
+    /* margin:auto ; */
+}
+
+.Image-circle{
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    background-color: violet;
+    position: absolute;
+    top: -6px;
+    z-index: -10;
+    left: 10px;
+}
+
+.PersonName{
+    text-align: center;
+    margin-top: 7px;
+    color: violet;
+}
+
+.Name{
+    font-weight:bold;
+    font-size: xx-large;
+}
+
+.PersonJob{
+    text-align: center;
+    margin-top: 7px;
+}
+
+.job{
+    color:rgb(209, 105, 209);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.DoubleQuote{
+    color: violet;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.ProperLines{
+    text-align: center;
+    margin-top: 8px;
+    color: #dadada;
+}
+
+.ArrowRightLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.ArrowLeftRight{
+    color: violet;
+    font-size: 20px;
+    transition: 0.10s;
+}
+
+.ArrowLeftRight :hover{
+    color: red;
+    transition: 0.10s;
+    font-size: 22px;
+}
+
+.Button-Surprise{
+    padding: 1%;
+    height: 50px;
+    width: 150px;
+    background-color: violet;
+    color: black;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: 0.10s;
+    margin-top: 10px;
+}
+
+.Button-Surprise:hover{
+    background-color: rgb(231, 83, 231);
+    cursor: pointer;
+    transition: 0.10s;
+}
+
+.Testtimo-Div{
+    width: 85vw;
+    max-width: 700px;
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    transition: all;
+    animation-duration: 0.5s;
+    border-radius: 5px;
+}
